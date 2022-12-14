@@ -88,6 +88,14 @@ ul{
     font-weight: 700;
     font-size: 14px;
 }
+
+.subscribe > li:last-child:hover{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: hsl(245, 100%, 69%);
+}
 .price{ 
     display: block;
     padding-left: 25px;
@@ -117,12 +125,20 @@ ul{
     font-weight: 700;
     box-shadow: 0px 10px 30px 0px hsl(223, 25%, 75%);
 }
+.btn:hover{
+    background-color: hsl(245, 100%, 69%);
+    cursor: pointer;
+}
 
 article:last-child p:last-child{
     font-weight: 700;
     color: var(--body);
 }
 
+article:last-child p:last-child:hover{
+    color: var(--Darkblue);
+    cursor: pointer;
+}
 @media only screen and (min-width:360px) {
     body{
         background: url('/images/pattern-background-desktop.svg')  top/100% 50% no-repeat;
